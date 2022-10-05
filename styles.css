@@ -1,0 +1,79 @@
+/*Estilos de presentacion*/
+
+#fondoBienvenida {
+    background-image: url(./img/central/imagenCentral.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.contenedor-primera-seccion {
+    width: 62%;
+    padding: 4rem 2rem;
+}
+
+.contenedor-primera-seccion h1 {
+    color: #FFFAF4;
+}
+
+
+/*Estilos de Cards en general*/
+
+.cardGenerales {
+    border: none;
+    background-color: transparent;
+    padding: 1em;
+    margin: none;
+    color: white;
+}
+
+
+/** Media queries 380px 580PX /
+
+/*Media query*/
+
+@media screen and (min-width:380px) and (max-width:580px) {
+    .cardGenerales {
+        color: black;
+    }
+}
+
+@media screen and (min-width:581px) and (max-width:1200px) {
+    #fondoBienvenida {
+        height: 100%;
+    }
+    #contenedorBienvenida {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+    .contenedorTexto {
+        margin: 4rem;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    section {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        padding: 2rem;
+    }
+    .contenedor-primera-seccion {
+        width: 30%;
+        margin: 2rem;
+        padding: 4rem 2rem;
+        background-color: rgba(0, 0, 0, 0.50);
+    }
+    .contenedor-primera-seccion p {
+        color: #FFFAF4;
+    }
+    .contenedor-primera-seccion button {
+        display: block;
+        margin-top: 3rem!important;
+        margin: auto;
+    }
+    .contenedorTexto {
+        margin: 4rem;
+    }
+}
