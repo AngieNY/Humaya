@@ -1,14 +1,26 @@
 /*Estilos de presentacion*/
 
+
+/* body {
+    background-color: #1c1c1d;
+    background-image: linear-gradient(0deg, #1c1c1d 0%);
+} */
+
+main {
+    background-color: #201d20;
+    background-image: linear-gradient(0deg, #201d20 0%, #353129 50%, #352d2d 100%);
+}
+
 #fondoBienvenida {
     background-image: url(./img/central/imagenCentral.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
+    width: 100%;
 }
 
 .contenedor-primera-seccion {
-    width: 62%;
+    /* width: 62%; */
     padding: 4rem 2rem;
 }
 
@@ -25,6 +37,68 @@
     padding: 1em;
     margin: none;
     color: white;
+}
+
+.secciones__titulo {
+    text-align: center;
+    height: 4rem;
+    margin-top: 1rem;
+}
+
+
+/* .img__ddleche {
+    background-image: url(./img/producto/Producto1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+} */
+
+.productos__cards {
+    background-color: #201f21;
+    padding: 2rem;
+}
+
+.productos__cards img {
+    width: 100%;
+}
+
+.productos__cards h3 {
+    color: #D19972;
+    padding: 1.5rem;
+    text-transform: uppercase;
+}
+
+.productos__cards p,
+h2 {
+    color: #adb5bd;
+}
+
+.productos__cards h6 {
+    color: #D19972;
+}
+
+.masinfo {
+    color: #D19972;
+    margin: 2rem auto;
+    width: 100%;
+}
+
+.secciones__titulo--contacto {
+    color: #efeae5;
+}
+
+.secciones__titulo--contacto button {
+    background-color: #292624;
+    color: #adb5bd;
+}
+
+.recetas__cards {
+    background-color: #D19972;
+}
+
+footer {
+    background-color: #201f21;
+    color: #adb5bd;
 }
 
 
