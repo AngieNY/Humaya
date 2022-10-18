@@ -168,6 +168,20 @@ footer {
     .masinfo {
         margin: 2rem;
     }
+    .secciones__titulo--contenido__contacto {
+        margin: auto;
+        padding: 2rem;
+        width: 100%;
+    }
+    .secciones__titulo--contenido__contacto img {
+        padding: 2.5rem;
+    }
+    .secciones__titulo--contacto {
+        width: auto;
+    }
+    .recetas {
+        margin-bottom: 2.5rem;
+    }
 }
 
 @media screen and (min-width:1201px) {
@@ -201,5 +215,19 @@ footer {
     }
     .contenedorTexto {
         margin: 4rem;
+    }
+    .secciones__titulo--contenido__contacto {
+        margin: auto;
+        padding: 2rem;
+        width: 100%;
+    }
+    .secciones__titulo--contenido__contacto img {
+        padding: 2.5rem;
+    }
+    .secciones__titulo--contacto {
+        width: 40%;
+    }
+    .recetas {
+        margin-bottom: 3rem;
     }
 }
